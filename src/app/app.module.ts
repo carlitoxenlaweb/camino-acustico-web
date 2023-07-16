@@ -7,6 +7,7 @@ import { PrivacyComponent } from './terms/privacy/privacy.component';
 import { CookiesComponent } from './terms/cookies/cookies.component';
 import { HomeComponent } from './home/home.component';
 import { ConditionsComponent } from './terms/conditions/conditions.component';
+import { RemoveComponent } from './remove/remove.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ConditionsComponent } from './terms/conditions/conditions.component';
     PrivacyComponent,
     CookiesComponent,
     HomeComponent,
-    ConditionsComponent
+    ConditionsComponent,
+    RemoveComponent
   ],
   imports: [
     BrowserModule,
